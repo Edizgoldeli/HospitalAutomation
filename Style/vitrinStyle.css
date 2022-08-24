@@ -1,0 +1,300 @@
+
+.input-box1{
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    margin-right: 6px;
+    cursor: pointer;
+    padding-left: 10px;
+    border: none;
+    background: #C4C4C4;
+    font-size: 23px;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), 0px 0px 20px #FFFFFF;
+    border-radius: 15px;
+    -webkit-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: 50%;
+            }
+    
+    .submit{
+        width: 100px;
+        height: 50px;
+        border: none;
+        border-radius: 15px;
+        background-color: rgb(75, 19, 218);
+        box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), 0px 0px 20px #FFFFFF;
+        color: white;
+        font-size: 23px;
+        float: right;
+        margin-right: 50px;
+    }
+
+    .input-box2{
+        display: inline-block;
+        width: 250px;
+        height: 50px;
+        margin-right: 6px;
+        cursor: pointer;
+        padding-left: 10px;
+        border: none;
+        background: white;
+        font-size: 23px;
+        box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), 0px 0px 20px #FFFFFF;
+        border-radius: 15px;
+        -webkit-appearance: none;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        }
+        .appointmentUp{
+          width: 436px;
+          height: 36px;
+          background: #BABAFF;
+          border-radius: 20px 20px 0px 0px;
+          -webkit-appearance: none;
+          border: none;
+          color: black;
+          transform: translate(-15%,0);
+        }
+        .appointmentBottom{
+          width: 436px;
+          height: 36px;
+          background: #F5F5FA;
+          box-shadow: -5px 0px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5);
+          backdrop-filter: blur(20px);
+          border-radius: 0px 0px 20px 20px;
+          -webkit-appearance: none;
+          color: black;
+          transform: translate(-15%,0);
+          margin-bottom: 70px;
+        }
+        .chngTime{
+          width: 200px;
+          height: 50px;
+          border: none;
+          border-radius: 15px;
+          background-color: rgb(75, 19, 218);
+          box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), 0px 0px 20px #FFFFFF;
+          color: white;
+          font-size: 23px;
+          float: right;
+          margin-right: 50px;
+          -webkit-appearance: none;
+        }
+        .textFloatRight{
+          font-family: 'Quicksand';
+          font-style: normal;
+          padding-top: 9px;
+          font-size: 15px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #FFFFFF;
+          justify-content: right;
+          padding-right: 5px;
+          -webkit-appearance: none;
+        }
+        .textFloatLeft{
+          font-family: 'Quicksand';
+          font-style: normal;
+          font-size: 15px;
+          padding-top: 9px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: black;
+          float: left;
+          padding-left: 5px;
+          -webkit-appearance: none;
+        }
+        .appointmentCancel{
+          font-family: 'Quicksand';
+          font-style:normal;
+          width: 100px;
+          height: 45px;
+          border-radius: 0 0 15px 0;
+          background-color: rgb(75, 19, 218);
+          color: white;
+          border-style: none;
+          font-size: 15px;
+          float: right;
+          margin-top: -70px;
+          margin-right: -45px;
+          cursor: pointer;
+        }
+        .displayPDF{
+          font-family: 'Quicksand';
+          font-style:normal;
+          width: 100px;
+          height: 45px;
+          border-radius: 0 0 15px 15px;
+          background-color: rgb(75, 19, 218);
+          color: white;
+          border-style: none;
+          font-size: 15px;
+          float: right;
+          margin-top: -70px;
+          margin-right: -25px;
+          cursor: pointer;
+          display: grid;
+          align-items: center;
+          text-align: center;
+        }
+        .upload{
+          font-family: 'Quicksand';
+          font-style:normal;
+          width: 100px;
+          height: 45px;
+          border-radius: 0 0 15px 0;
+          background-color: rgb(75, 19, 218);
+          color: white;
+          border-style: none;
+          font-size: 15px;
+          float: right;
+          margin-top: -45px;
+          margin-right: -45px;
+          padding-top: 7px;
+          cursor: pointer;
+        }
+        #upload {
+          cursor: pointer;
+          font-family: 'Quicksand';
+          font-style:normal;
+          width: 0px;
+          height: 35px;
+          border-radius: 0 0 0 15px;
+          background-color: rgb(75, 19, 218);
+          color: white;
+          border-style: none;
+          font-size: 15px;
+          float: right;
+          margin-top: -35px;
+          margin-right: 54px;
+          align-items: 20px;
+          text-align: 10px;
+          padding-top: 10px;
+          padding-left: 85px;
+      }
+      .text{
+        font-family: 'Quicksand';
+          font-style:normal;
+        color: white;
+        margin-left: 190px;
+        transform: translate(0,-55px);
+        
+      }
+        label{
+          font-family: 'Quicksand';
+          font-style:normal;
+          cursor: pointer;
+          width: 85px;
+          height: 45px;
+          border-radius: 0 0 0 15px;
+          background-color: rgb(75, 19, 218);
+          color: white;
+          border-style: none;
+          font-size: 15px;
+          float: right;
+          margin-top: -70px;
+          margin-right: 54px;
+          display: grid;
+          align-items: 20px;
+          text-align: 10px;
+        }
+        .appointmentChangeTime{
+
+          cursor: pointer;
+          width: 100px;
+          height: 45px;          
+          border-style: none;
+          border-radius: 0 0 0 15px;
+          background-color: rgb(75, 19, 218);
+          color: white;
+          font-size: 15px;
+          float: right;
+          margin-top: -70px;
+          margin-right: 55px;
+        }
+        .weekDays{
+          font-family: 'Quicksand';
+          font-style:normal;
+          font-size: 25px;
+          position: absolute;
+          width: 200px;
+          height: 70px;
+          background: #F5F5FA;
+          border-style: none;
+          box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
+          border-radius: 20px;
+          transform: translate(25%,0);
+        }
+        .hoursPositive{
+          font-family: 'Quicksand';
+          font-style:normal;
+          font-size: 25px;
+          width: 80px;
+          height: 50px;
+          background: #F5F5FA;
+          border-style: none;
+          box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
+          border-radius: 20px;
+          transform: translate(25%,0);
+          margin-top: 15px;
+          margin-left: 8px; 
+        }
+        .hoursPositive:hover{
+          background: #a0a0a0;
+        }
+        .hoursPositive:focus{
+          background: #a0a0a0;
+        }
+        .hoursNegative{
+          font-family: 'Quicksand';
+          font-style:normal;
+          font-size: 25px;
+          width: 80px;
+          height: 50px;
+          background: rgb(237, 111, 111);
+          border-style: none;
+          box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
+          border-radius: 20px;
+          transform: translate(25%,0);
+          margin-top: 15px;
+          margin-left: 8px; 
+          pointer-events: none;
+        }
+        .emptySpace{
+          margin-top: 80px;
+        }
+        .selection{
+
+          margin: auto;
+          width: 280px;
+          height: 78px;
+          background: #F5F5FA;
+          /* Shadow 3 */
+          
+          box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.5), inset 5px 5px 10px rgba(170, 170, 204, 0.25), inset 10px 10px 20px rgba(170, 170, 204, 0.5), inset -10px -10px 20px #FFFFFF;
+              border-radius: 20px;
+          font-family: 'Quicksand';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+          /* identical to box height */
+          display: grid;
+          align-items: center;
+          text-align: center;
+          
+          color: #000000;
+          
+          margin-top: 40px;
+      }
+      
+      .gapSupport{
+          width:300px;
+          height:50px;
+      }
