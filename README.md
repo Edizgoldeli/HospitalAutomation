@@ -1,6 +1,6 @@
 Hospital reservation system with following features;
 
-Patient;
+Patient;<br>
 *Login
 *Sign up
 *Edit user information
